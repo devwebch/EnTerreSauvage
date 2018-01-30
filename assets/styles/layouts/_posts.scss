@@ -1,0 +1,84 @@
+.post {
+
+  .entry-header {
+    text-align: center;
+  }
+
+  .entry-title {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+
+    &:after {
+      content: " ";
+      display: block;
+      width: 200px;
+      margin: 10px auto 0;
+      border-bottom: 1px solid $yellow;
+    }
+
+    a {
+      color: #333;
+    }
+  }
+
+  .content-wrapper {
+    background: #fff;
+    padding: 30px;
+  }
+
+  .read-more {
+    text-align: center;
+    margin-top: 20px;
+
+    .btn {
+      background: #fff;
+      color: #222;
+      border-color: #222;
+      border-width: 3px;
+      padding: 7px 20px;
+    }
+  }
+}
+
+.home,
+.archive {
+  .post {
+    margin-bottom: 40px;
+  }
+}
+
+.comments {
+  background: #fff;
+  padding: 30px;
+  margin-top: 40px;
+
+  h2 {
+    margin: 0 0 20px;
+  }
+}
+
+.comment-list {
+
+  .comment {
+    padding: 20px;
+
+    .comment-meta {
+      margin-bottom: 20px;
+
+      .avatar {
+        border-radius: 100%;
+        float: left;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) { }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) { }
